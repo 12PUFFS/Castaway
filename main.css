@@ -2,18 +2,12 @@ body {
   background: #363f46;
   color: white;
   padding: 0;
-  margin: 0;
-  max-width: 100%;
+
   box-sizing: border-box;
 }
 
-.header {
-  height: 1032px;
-  max-width: 1920px;
-}
-
 .container {
-  max-width: 14560px;
+  max-width: 1320px;
   padding-left: 50px;
   padding-right: 70px;
   margin: 0 auto;
@@ -22,7 +16,7 @@ body {
 .logo {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .header-nav {
@@ -54,49 +48,28 @@ body {
 .header-row {
   display: flex;
   justify-content: space-between;
-
-  margin-top: 107px;
-}
-
-.header-box {
-  height: 610px;
-  width: 550px;
-  margin-top: 324px;
+  column-gap: 60px;
 }
 
 span {
-  border-bottom: 2px solid #118da8;
+  border-bottom: 5px solid #118da8;
 }
 
-.header-content-text {
-  font-size: 60px;
-  padding-left: 60px;
-
-  font-family: "Dm sans";
-  margin: 0 auto;
+.header-heading {
+  font-size: 70px;
   text-align: left;
-
+  margin-top: 334px;
   font-weight: 400;
 }
 
-.header-imgage {
-  width: 650px;
-  height: 873px;
-  border-radius: 30px;
-  padding: 0;
+.wwb {
+  font-size: 15px;
+  padding-left: 22px;
+  margin-top: 74px;
+  font-family: "Dm Sans";
 }
 
-main {
-  height: 2088px;
-}
-.main-block {
-  padding-top: 93px;
-  font-size: 64px;
-  padding-left: 50px;
-  padding-right: 70px;
-
-  display: flex;
-
-  background: white;
-  color: black;
+.icons {
+  margin-top: 16px;
+  column-gap: 17;
 }
